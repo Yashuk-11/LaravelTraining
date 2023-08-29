@@ -1,12 +1,11 @@
 <?php
 
-namespace App\Models;
+namespace {{ namespace }};
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Userdetail extends Model
+class {{ class }} extends Model
 {
     use HasFactory;
-    public $timestamps=false;
 }
